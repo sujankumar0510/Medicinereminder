@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Medicinereminder</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="options">Left Menu</string>
+    <string name="options2">Right Menu</string>
+    <string name="select">Select</string>
+    <string name="select_doctor_prompt">Select Doctor</string>
+    <string name="select_reminder_prompt">Select Reminder</string>
+
+
+</resources>

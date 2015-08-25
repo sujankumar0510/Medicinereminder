@@ -1,0 +1,571 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/bg">
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/parent"
+    >
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:id="@+id/imageviewll"
+        android:layout_height="200dp"
+        android:layout_marginTop="10dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <ImageView
+            android:layout_width="380dp"
+            android:layout_height="200dp"
+            android:id="@+id/imageView"
+            android:src="@drawable/bg3"
+            android:layout_gravity="center_horizontal" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/ll1"
+        android:layout_below="@id/imageviewll"
+        android:weightSum="1"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="20dp"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Medicine Name :"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:id="@+id/textView9" />
+
+        <AutoCompleteTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter Medicine Name"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"
+            android:id="@+id/medicine_name"
+            android:layout_gravity="center_horizontal" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Reminder Time :"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:id="@+id/textView10" />
+
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="20dp"
+            android:orientation="horizontal"
+            android:id="@+id/reminder_time">
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Frequency"
+                android:checked="false"
+                android:id="@+id/frequency" />
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Interval"
+                android:layout_marginLeft="10dp"
+                android:checked="false"
+                android:id="@+id/interval" />
+        </RadioGroup>
+
+        <Spinner
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="10dp"
+            android:id="@+id/reminder"
+            android:prompt="@string/select"
+            android:spinnerMode="dialog"
+            android:visibility="gone"/>
+
+
+        <EditText
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:visibility="gone"
+            android:id="@+id/reminder1" />
+
+        <EditText
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:visibility="gone"
+            android:id="@+id/reminder2" />
+
+        <EditText
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:visibility="gone"
+            android:id="@+id/reminder3" />
+
+        <EditText
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:visibility="gone"
+            android:id="@+id/reminder4" />
+
+        <EditText
+            android:layout_width="100dp"
+            android:layout_marginLeft="30dp"
+            android:visibility="gone"
+            android:layout_height="wrap_content"
+            android:id="@+id/reminder5" />
+
+        <EditText
+            android:layout_width="100dp"
+            android:layout_marginLeft="30dp"
+            android:visibility="gone"
+            android:layout_height="wrap_content"
+            android:id="@+id/reminder6" />
+
+        <EditText
+            android:layout_width="100dp"
+            android:layout_marginLeft="30dp"
+            android:visibility="gone"
+            android:layout_height="wrap_content"
+            android:id="@+id/reminder7" />
+
+        <EditText
+            android:layout_width="100dp"
+            android:layout_marginLeft="30dp"
+            android:visibility="gone"
+            android:layout_height="wrap_content"
+            android:id="@+id/reminder8" />
+
+        <EditText
+            android:layout_width="100dp"
+            android:layout_marginLeft="30dp"
+            android:visibility="gone"
+            android:layout_height="wrap_content"
+            android:id="@+id/reminder9" />
+
+        <EditText
+            android:layout_width="100dp"
+            android:layout_marginLeft="30dp"
+            android:visibility="gone"
+            android:layout_height="wrap_content"
+            android:id="@+id/reminder10" />
+
+        <EditText
+            android:layout_width="100dp"
+            android:layout_marginLeft="30dp"
+            android:visibility="gone"
+            android:layout_height="wrap_content"
+            android:id="@+id/reminder11" />
+
+        <EditText
+            android:layout_width="100dp"
+            android:layout_marginLeft="30dp"
+            android:visibility="gone"
+            android:layout_height="wrap_content"
+            android:id="@+id/reminder12" />
+        <EditText
+            android:layout_width="100dp"
+            android:layout_marginLeft="30dp"
+            android:visibility="gone"
+            android:layout_height="wrap_content"
+            android:id="@+id/reminder13" />
+        <EditText
+            android:layout_width="100dp"
+            android:layout_marginLeft="30dp"
+            android:visibility="gone"
+            android:layout_height="wrap_content"
+            android:id="@+id/reminder14" />
+        <EditText
+            android:layout_width="100dp"
+            android:layout_marginLeft="30dp"
+            android:visibility="gone"
+            android:layout_height="wrap_content"
+            android:id="@+id/reminder15" />
+        <EditText
+            android:layout_width="100dp"
+            android:layout_marginLeft="30dp"
+            android:visibility="gone"
+            android:layout_height="wrap_content"
+            android:id="@+id/reminder16" />
+        <EditText
+            android:layout_width="100dp"
+            android:layout_marginLeft="30dp"
+            android:visibility="gone"
+            android:layout_height="wrap_content"
+            android:id="@+id/reminder17" />
+        <EditText
+            android:layout_width="100dp"
+            android:layout_marginLeft="30dp"
+            android:visibility="gone"
+            android:layout_height="wrap_content"
+            android:id="@+id/reminder18" />
+        <EditText
+            android:layout_width="100dp"
+            android:layout_marginLeft="30dp"
+            android:visibility="gone"
+            android:layout_height="wrap_content"
+            android:id="@+id/reminder19" />
+        <EditText
+            android:layout_width="100dp"
+            android:layout_marginLeft="30dp"
+            android:visibility="gone"
+            android:layout_height="wrap_content"
+            android:id="@+id/reminder20" />
+        <EditText
+            android:layout_width="100dp"
+            android:layout_marginLeft="30dp"
+            android:visibility="gone"
+            android:layout_height="wrap_content"
+            android:id="@+id/reminder21" />
+        <EditText
+            android:layout_width="100dp"
+            android:layout_marginLeft="30dp"
+            android:visibility="gone"
+            android:layout_height="wrap_content"
+            android:id="@+id/reminder22" />
+        <EditText
+            android:layout_width="100dp"
+            android:layout_marginLeft="30dp"
+            android:visibility="gone"
+            android:layout_height="wrap_content"
+            android:id="@+id/reminder23" />
+        <EditText
+            android:layout_width="100dp"
+            android:layout_marginLeft="30dp"
+            android:visibility="gone"
+            android:layout_height="wrap_content"
+            android:id="@+id/reminder24" />
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <EditText
+                android:layout_width="100dp"
+                android:layout_marginLeft="30dp"
+                android:visibility="gone"
+                android:layout_height="wrap_content"
+                android:hint="start time"
+                android:id="@+id/start_time" />
+            <EditText
+                android:layout_width="100dp"
+                android:layout_marginLeft="30dp"
+                android:visibility="gone"
+                android:hint="end time"
+                android:layout_height="wrap_content"
+                android:id="@+id/end_time" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Duration :"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:layout_marginTop="20dp"
+            android:id="@+id/textView11"
+             />
+
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:orientation="vertical"
+            android:id="@+id/duration">
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Continuos"
+                android:checked="false"
+                android:id="@+id/continuos" />
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="No of Days"
+                android:checked="false"
+                android:id="@+id/noofdays" />
+        </RadioGroup>
+
+
+        <EditText
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:visibility="gone"
+            android:hint="days"
+            android:id="@+id/nod" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Days :"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:layout_marginTop="20dp"
+            android:id="@+id/textView12" />
+
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:orientation="vertical"
+            android:id="@+id/days">
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Everyday"
+                android:checked="false"
+                android:id="@+id/everyday" />
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Specific days of Week"
+                android:checked="false"
+                android:id="@+id/specificdays" />
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Days Interval"
+                android:checked="false"
+                android:id="@+id/daysinterval" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="number"
+                android:ems="10"
+                android:visibility="gone"
+                android:id="@+id/dayintervalnod" />
+        </RadioGroup>
+
+        <CheckedTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="New CheckedTextView"
+            android:id="@+id/checkedTextView" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Dosage :"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:layout_marginTop="20dp"
+            android:id="@+id/textView13" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:ems="10"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="10dp"
+            android:hint="example:100mg"
+            android:id="@+id/dosage" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Quantity :"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:layout_marginTop="20dp"
+            android:id="@+id/textView17" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:ems="10"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="10dp"
+            android:hint="enter quantity of medicine"
+            android:id="@+id/quantity" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Instructions :"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:layout_marginTop="20dp"
+            android:id="@+id/textView14" />
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="20dp"
+            android:orientation="vertical"
+            android:id="@+id/instructions">
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="before food"
+                android:checked="false"
+                android:id="@+id/beforefood" />
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="after food"
+                android:checked="false"
+                android:id="@+id/afterfood" />
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="with food"
+                android:checked="false"
+                android:id="@+id/withfood" />
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="none"
+                android:checked="false"
+                android:id="@+id/none" />
+        </RadioGroup>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="text"
+            android:ems="10"
+            android:id="@+id/othinst"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="10dp"
+            android:hint="other instructions"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Refill Reminder :"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:layout_marginTop="20dp"
+            android:id="@+id/textView15" />
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="10dp"
+            android:orientation="vertical"
+            android:id="@+id/refill_reminder">
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="No of days"
+                android:checked="false"
+                android:id="@+id/noofdaysrefill" />
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="No of pills"
+                android:checked="false"
+                android:id="@+id/noofpills" />
+
+
+        </RadioGroup>
+
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:visibility="gone"
+                android:layout_height="wrap_content"
+                android:id="@+id/refill1" />
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:visibility="gone"
+                android:layout_height="wrap_content"
+                android:id="@+id/refill2" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Doctor :"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:layout_marginTop="20dp"
+            android:id="@+id/textView18" />
+
+        <Spinner
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/adddoctor"
+            android:layout_weight="0.49"
+            android:spinnerMode="dialog" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_below="@+id/ll1"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:weightSum="1">
+
+        <Button
+            android:layout_width="113dp"
+            android:layout_height="wrap_content"
+            android:text="Save"
+            android:textStyle="bold"
+            android:layout_marginTop="40dp"
+            android:layout_marginLeft="70dp"
+            android:id="@+id/save" />
+
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="Cancel"
+            android:textStyle="bold"
+            android:layout_marginTop="40dp"
+            android:layout_marginLeft="50dp"
+            android:id="@+id/cancel"
+            android:layout_weight="0.12" />
+    </LinearLayout>
+
+
+</RelativeLayout>
+</ScrollView>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="240dp"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bg">
+
+    <Button
+        android:id="@+id/addprof"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add Profile" />
+    <Button
+        android:id="@+id/addmed"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add Medicine" />
+    <Button
+        android:id="@+id/adddoc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add Doctor" />
+    <Button
+        android:id="@+id/addapt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add Appointment" />
+
+
+</LinearLayout>
